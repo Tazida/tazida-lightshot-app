@@ -87,7 +87,7 @@ The project uses several configuration files:
 
 ## 👥 Authors
 
-- Your Name - [https://github.com/Tazida]
+- Name - [https://github.com/Tazida]
 
 ## 📞 Contact
 
