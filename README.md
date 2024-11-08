@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Tazida Lightshot App
+A web application for managing and sharing file attachments through an intuitive card-based interface.
+Core Features:
+- Horizontal scrolling card gallery for visual content organization
+- Modal-based file attachment system for seamless uploads
+- Backend storage management with attachment tracking
+- File selection and management interface
+- Real-time attachment count updates
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Live Demo
 
-## Available Scripts
+http://localhost:3000/ 
 
-In the project directory, you can run:
+## 📋 Features
 
-### `npm start`
+- File upload functionality
+- Horizontal scrolling component
+- Card-based interface
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React.js
+- Node.js
+- Tailwind CSS
+- PostCSS
+- Webpack
 
-### `npm test`
+## 💻 Local Development Setup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository
+   ```bash
+   git clone [https://github.com/Tazida/tazida-lightshot-app]
+   cd tazida-lightshot-app
+   ```
 
-### `npm run build`
+2. Install dependencies
+   ```bash
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server
+   ```bash
+   npm run dev
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Run tests
+   ```bash
+   npm test
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The application will be available at `http://localhost:3000/` 
 
-### `npm run eject`
+## 📁 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+tazida-lightshot-app/
+├── node_modules/
+├── public/
+├── server/
+├── src/
+│   ├── components/
+│   │   ├── Card.jsx
+│   │   ├── FileUploadModal.jsx
+│   │   └── HorizontalScroll.jsx
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+└── README.md
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🔧 Configuration
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The project uses several configuration files:
+- `postcss.config.js` - PostCSS configuration
+- `tailwind.config.js` - Tailwind CSS configuration
+- `package.json` - Project dependencies and scripts
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📝 Available Scripts
 
-## Learn More
+- `npm start` - Runs the app in development mode
+- `npm test` - Launches the test runner
+- `npm run build` - Builds the app for production
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 👥 Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Your Name - [https://github.com/Tazida]
 
-### Code Splitting
+## 📞 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Email - [tazida8@gmail.com]
+- Project Link: [https://github.com/Tazida/tazida-lightshot-app]
